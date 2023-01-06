@@ -2,14 +2,57 @@
 <html>
 <head>
   <meta charset="utf-8">
-    <title>Kubernetes Tutorials and Common Questions</title>
+  <title>Kubernetes Tutorials and Answers to Popular Questions</title>
   <style>
+    /* Reset styles */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    /* Custom styles */
     body {
       font-family: Arial, sans-serif;
       color: #333;
       background-color: #f5f5f5;
-      margin: 0;
-      padding: 0;
     }
     .container {
       max-width: 800px;
@@ -20,7 +63,7 @@
       display: flex;
     }
     .left-menu {
-      width: 350px;
+      width: 250px;
       background-color: #eee;
       padding: 20px;
     }
@@ -40,7 +83,8 @@
     .left-menu li {
       margin: 10px 0;
     }
-    .left-menu a {
+    .left-menu a
+    {
       display: block;
       color: #333;
       text-decoration: none;
@@ -55,14 +99,14 @@
 <body>
   <div class="container">
     <div class="left-menu">
-      <h2>Menu</h2>
+      <h2>Most Popular</h2>
       <ul>
         <li><a href="#">K8S Tutorials</a></li>
-        <li><a href="#">Common Questions</a></li>
+        <li><a href="#">Popular Questions</a></li>
       </ul>
     </div>
     <div class="main-content">
-      <h1>Kubernetes Tutorials and Common Questions</h1>
+      <h1>Kubernetes Tutorials and Answers to Popular Questions</h1>
       <h2>Introduction</h2>
       <p>Welcome to our Kubernetes Tutorials and Common Questions project! Here, you will find a variety of resources to help you learn about and work with Kubernetes, an open-source container orchestration system. Our tutorials cover a range of topics, from the basics of installation and configuration to more advanced techniques for managing and deploying applications. We also have a section dedicated to answering common questions about Kubernetes and its various features and components. Whether you are a beginner looking to get started with Kubernetes or an experienced user seeking to deepen your understanding of the system, we hope you will find these resources helpful and informative.</p>
       
@@ -74,8 +118,10 @@
       
       <p>So if you want to get involved, don't hesitate to fork the repository, make your changes, and submit a pull request. Together, we can create a valuable resource for the Kubernetes community.</p>
       
-      <p>Thank you for your interest in our project, and we hope you find it useful!</p>  
+      <p>Thank you for your interest in our project, and we hope you find it useful!</p>    
     </div>
   </div>
 </body>
 </html>
+
+
